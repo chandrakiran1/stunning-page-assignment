@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+     height: 100px;
+     
+    
+
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+li{
+    text-decoration: none;
+    padding: 15px;
+    margin: 10px;
+    color:gray ;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+    
+}
+li :hover{
+    color: #5243c0;
+    text-decoration: underline;
+
+}
+button{
+    background-color: #ffd8db;
+    color: #A389CC;
+    border-radius: 10px;
+    padding: 9px;
+    align-items: center;
+    border: none;
+    font-weight: bold;
+}
+main{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.right{
+    width: 600px;
+    height: auto;
+}
+.left{
+    padding: 30px;
+
+}
+h1{
+ padding: 5px; 
+ font-size: 40px;
+ margin-left: 60px;
+ 
+}
+h3{
+    padding: 5px;
+    font-size: 40px;
+    margin-left: 60px;
+}
+p{
+    padding: 5px;
+    font-size: 15pxpx;
+    margin-left: 60px;
+
+}
+.btn1{
+    background-color: #5243c0;
+    color:#ffffff ;
+    border-radius:20px;
+    padding: 10px;
+    margin-left: 60px;
+    align-items: center;
+    height: 40px;
+    
+}
+.card1{
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 100px;
+    padding: 15px;
+    list-style-type: none;
+    background-color: rgb(248, 239, 239);
+    display: block;
+    
+}
+.card2{
+    display: block;
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 100px;
+    padding: 15px;
+    list-style-type: none;
+    
+    
+}
+.card3{
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 100px;
+    padding: 15px;
+    list-style-type: none;
+    background-color: rgb(248, 239, 239);
+    display: block;
+
+    
+    
+}
+.card4{
+    
+    margin-top: 25px;
+    margin-left: 100px;
+    padding: 15px;
+    list-style-type: none;
+    display: inline-block;
+    background-color: rgb(248, 239, 239);
+    display: block;
+    
+}
+.btn2{
+    background-color: #FED7DA;
+    width: 30px;
+    height: 17px;
+    border: none;
+    border-radius: 50px;
+}
+.btn3{
+    background-color: #FD6534;
+    width: 30px;
+    height: 17px;
+    border: none;
+    border-radius: 50px;
+}
+.btn4{
+    background-color: #9ED095;
+    width: 30px;
+    height: 17px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: none;
+}
+.btn5{
+    background-color: #FFE4A0;
+    width: 30px;
+    height: 17px;
+    border: none;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+
+
